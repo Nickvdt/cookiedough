@@ -1,0 +1,68 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #B7CADB, #54BAB9);
+}
+
+.cookie {
+  width: 40rem;
+  background: #C68B59;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  position: relative;
+  overflow: hidden;
+  border: 0.5rem solid #040303;
+}
+.cookie__spots {
+  width: 9rem;
+  aspect-ratio: 1/1;
+  background: #040303;
+  border-radius: 45%;
+  position: absolute;
+}
+.cookie__spots--first {
+  top: 10%;
+  left: 5%;
+}
+.cookie__spots--second {
+  right: 10%;
+  top: 5%;
+}
+.cookie__spots--third {
+  right: 5%;
+  bottom: 10%;
+}
+.cookie__spots--fourth {
+  left: 5%;
+  bottom: 10%;
+}
+.cookie__spots--five {
+  left: 25%;
+  bottom: 44%;
+}
+.cookie__spots--six {
+  left: 60%;
+  top: 35%;
+}
+.cookie__spots--seven {
+  left: 35%;
+  bottom: 15%;
+}
+
+/*# sourceMappingURL=style.css.map */

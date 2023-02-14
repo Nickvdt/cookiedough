@@ -1,0 +1,50 @@
+.cookie{
+    width: 40rem;
+    background: #C68B59;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden;
+    border: 0.5rem solid #040303;
+
+    &__spots{
+        width: 9rem;
+        aspect-ratio: 1/1;
+        background: #040303;
+        border-radius: 45%;
+        position: absolute;
+
+        &--first{
+            top: 10%;
+            left: 5%;
+        }
+
+        &--second{
+            right: 10%;
+            top: 5%;
+        }
+
+        &--third{
+            right: 5%;
+            bottom: 10%;
+        }
+
+        &--fourth{
+            left: 5%;
+            bottom: 10%;
+        }
+        &--five{
+            left: 25%;
+            bottom: 44%;
+        }
+        &--six{
+            left: 60%;
+            top: 35%;
+        }
+        &--seven{
+            left: 35%;
+            bottom: 15%;
+        }
+    }
+
+}
