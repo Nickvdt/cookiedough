@@ -1,0 +1,13 @@
+@use "../../abstracts/colors";
+.score{
+    font-size: 500%;
+    color: map-get(colors.$cookie, "spots");
+    background: whitesmoke;
+    padding: 2rem;
+    border-radius: 4rem;
+    font-weight: 300;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
