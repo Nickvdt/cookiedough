@@ -1,6 +1,6 @@
 @use "../../abstracts/colors.scss";
 .cookie{
-    width: 40rem;
+    width: 30rem;
     background: map-get(colors.$cookie, "background");
     border-radius: 50%;
     aspect-ratio: 1/1;
@@ -18,9 +18,27 @@
     &:active{
         transform: scale(0.95);
     }
+    &--chocolate{
+        background: #3C2A21;
+        box-shadow: 0 2rem 1.5rem 0rem rgba(0,0,0,0.2);
+        border: 1rem solid #1C0A00;
+    }
 
+    &--chocolate &__spots{
+        background: #1C0A00;
+        border-radius: 20%;
+    }
+    &--velvet{
+        background: red;
+        box-shadow: 0 2rem 1.5rem 0rem rgba(0,0,0,0.2);
+        border: 1rem solid #C52D32;
+    }
+    &--velvet &__spots{
+        background: #E5D5AA;
+        border-radius: 25%;
+    }
     &__spots{
-        width: 7.5rem;
+        width: 5rem;
         aspect-ratio: 1/1;
         background: map-get(colors.$cookie, "spots");
         border-radius: 45%;

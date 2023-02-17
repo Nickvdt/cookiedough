@@ -4,7 +4,6 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     background: map-get(colors.$upgrades, "background");
     width: max-content;
     border-radius: 1rem;
@@ -26,7 +25,7 @@
             border-top-right-radius: 1rem;
         }
 
-        &:nth-of-type(3){
+        &:nth-of-type(4){
             border-bottom-left-radius: 1rem;
             border-bottom-right-radius: 1rem;
         }
@@ -35,8 +34,6 @@
             transform: translateY(10%);
             color: map-get(colors.$cookie, "spots")
         }
-
-
 
         &:hover>i {
             color: whitesmoke;
